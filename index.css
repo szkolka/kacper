@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html {
+    padding: 10px;
+    height: 100%;
+	width: 100%;
+}
+.kontener {
+    width: 90%;
+    height: 90%;
+    margin: 30px auto;
+	background-color: white;
+}
+.gora {
+    background: white;
+    height: 15%;
+	width: 100%;
+    text-align: right;
+    padding: 20px;
+	border: 3px solid black;
+}
+.gora > ul > li {
+    display: inline-block;
+    font-size: 60px;
+}
+.prawa{
+    background: white;
+    float: left;
+    width:25%;
+    height: 70%;
+	border: 3px solid black;
+}
+.prawa > ul {
+    list-style: none;
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+.prawa > ul > li {
+    margin-top: 60px;
+    font-size: 50px;
+    border: 1px solid #000;
+}
+.lewa {
+	background: white;
+    float: left;
+    height: 70%;
+	border: 3px solid black;
+    width: 75%;
+    position: relative;
+	
+}
+a {
+    text-decoration: none;
+    color: #000;
+    width:100%;
+    display: inline-block;
+}
+form {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+form > label {
+    display: block;
+    margin-top: 10px;
+    font-size: 30px;    
+}
+.prawa > p {
+    margin-top: 20px;
+    font-size: 50px;
+}
+.input {
+    margin-left: 20px;
+    padding: 20px;
+}
+.btns {
+    margin-top: 20px;
+    width:40%;
+    padding: 10px;
+    float: left;
+}
+.second {
+    margin-left: 10px;
+}
+.dol {
+    background: white;
+    clear: both;
+    height: 15%;
+    padding: 20px;
+	border: 3px solid black;
+}
+.dol > p {
+    text-align: center;
+    font-size: 50px;
+}
